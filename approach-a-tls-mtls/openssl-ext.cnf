@@ -1,0 +1,8 @@
+# Used by gen_certs.sh when signing server and client certificates.
+
+[ v3_server ]
+subjectAltName = DNS:localhost, IP:127.0.0.1
+extendedKeyUsage = serverAuth
+
+[ v3_client ]
+extendedKeyUsage = clientAuth

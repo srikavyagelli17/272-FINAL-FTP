@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+test_4gb.bin
+*.bin
+
+approach-a-tls-mtls/certs/
+
+approach-b-encrypted-envelope/keys/
+>>>>>>> 3a04c4e (Initial deployment)
